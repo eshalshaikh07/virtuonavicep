@@ -1,0 +1,43 @@
+.imageformcontainer{
+    display: flex;
+    gap:250px;
+    height: 100vh;
+}
+
+.loginlogo{
+    width: 400px;
+   height: 400px;
+   
+}
+.logincolor{
+    background-color:  #202022;
+    
+}
+
+
+.card.p-4.shadow-sm {
+    background-color: #202022;
+    color: #eeeeee;
+    border: 3px solid #eeeeee;
+    border-radius: 20px;
+    min-width: 600px;
+}
+
+
+
+@media (max-width:600px) {
+    .imageformcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap:15px;
+    }
+    .loginlogo{
+        width: 100px;
+       height: 100px;
+    }
+    .card.p-4.shadow-sm{
+        min-width: 90px;
+        
+    }
+
+}
