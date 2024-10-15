@@ -35,7 +35,8 @@ const Login = ({ setUserDetails, setUserDocId }) => {
         setUserDocId(userSnapshot.docs[0].id);
         setGreeting('Hey User!');
         setIsLoggedIn(true);
-        navigate('/home');
+        navigate('/user');
+
       } else {
         setLoginError('No account found for this email.');
       }
